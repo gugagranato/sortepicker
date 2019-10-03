@@ -3,9 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   height: 150px;
-  
+  margin-left: 50px;
+  margin-right: 50px;
 `
 export const Wrapper = styled.div`
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); 
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -23,6 +25,7 @@ margin: 25px;
 
 `
 export const InfoContainer = styled.div`
+margin: 25px;
 display: flex;
 flex-direction: row;
 

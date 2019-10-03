@@ -1,21 +1,38 @@
 import React from 'react';
+import Typed from 'react-typed';
 
-// import { Container } from './styles';
+import {
+   Container,
+   UpperContent
+} from './styles'
 
-export default function Content() {
-  return (
-    <div>
-      <div>
-        <h1>Meu content</h1>
-      </div>
-      <div>
-        <p>
-          Esse é um projeto de investimentos na Bolsa de Valores(B3), comprando ações de empresas oriunda de um sorteio.
-        </p>
-        <p>
-          Todas as empresas listada no sorteio são as que copõem o IBOV, listadas da empresa com <strong>maior</strong> participação, para a de <strong>menor</strong> participação. 
-        </p>
-      </div>
-    </div>
-  );
-}
+
+
+const Content = () => (
+<Container>
+   <UpperContent>
+         
+
+
+
+
+      {/*  <Title>
+         Trabalhamos para facilitar o dia a dia do seu&nbsp;
+         <Typed 
+            strings={[
+               'negócio',
+               'emprego',
+               'trabalho',
+            ]}
+            typeSpeed={45}
+            backSpeed={50}
+            loop
+            style={type}
+         />
+      </Title>  */}
+   </UpperContent>
+</Container>
+
+)
+
+export default Content;

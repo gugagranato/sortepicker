@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  background: yellow;
 `
 
 export const TextNumber = styled.h1`

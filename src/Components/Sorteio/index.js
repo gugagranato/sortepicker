@@ -1,6 +1,11 @@
 import React,  { useEffect }  from 'react';
 import companiesService from '../../Services/api/companiesService'
-import axios from 'axios'
+import abev from '../../assets/global/images/abev.png'
+import wege from '../../assets/global/images/wege.png'
+import itub from '../../assets/global/images/itub.png'
+import itsa from '../../assets/global/images/itsa.png'
+import flry from '../../assets/global/images/fleury.png'
+import egie from '../../assets/global/images/egie.png'
 
 import { 
   Container,
@@ -16,10 +21,8 @@ export default function Sorteio() {
   const handleCompanies = async () => {
     try {
       const { data } = await companiesService.getCompanies();
-      console.log('data', data[0])
       if(!data) {
-        console.log('Erro')
-        
+        alert('error')
       } else {
         const min = data[0].number;
         const max = data[data.length - 1].number;
@@ -36,49 +39,51 @@ export default function Sorteio() {
             cont_sorteados++;
             }
           }
-      console.log('empresa', empresas_sorteadas[0].name)
       }
     } catch (error) {
       console.log('error', error)
     }
   }
-
     return (
       <Container>
         <Wrapper>
           <NumberContainer>
-            <NumberContainer>
             <CardsComponent 
               title="Ambev"
               cod="ABEV3"
               info="Empresa de bebidas"
+              img={abev}
             />
             <CardsComponent 
               title="Weg"
               cod="WEGE3"
               info="Empresa de motores elétricos"
+              img={wege}
             />
             <CardsComponent 
               title="Fleury"
               cod="FLRY3"
               info="Empresa hospitalar"
+              img={flry}
             />
             <CardsComponent 
               title="Engie"
               cod="EGIE3"
               info="Empresa de energia elétrica"
+              img={egie}
             />
             <CardsComponent 
               title="Itaú"
               cod="ITUB3"
               info="Empresa do setor bancário"
+              img={itub}
             />
             <CardsComponent 
               title="Itaúsa"
               cod="ITSA4"
               info="Holding de empresas"
+              img={itsa}
             />
-            </NumberContainer>
           </NumberContainer>
           <SorteioContainer>
             <ButtonSorteio onClick={handleCompanies}>
