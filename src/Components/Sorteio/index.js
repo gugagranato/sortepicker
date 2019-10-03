@@ -15,6 +15,7 @@ import {
   NumberContainer
 } from './styles';
 import CardsComponent from '../Cards';
+import {RoundButton} from '../Button';
 
 export default function Sorteio() {
 
@@ -39,6 +40,7 @@ export default function Sorteio() {
             cont_sorteados++;
             }
           }
+          console.log('empresas', empresas_sorteadas)
       }
     } catch (error) {
       console.log('error', error)
@@ -86,9 +88,14 @@ export default function Sorteio() {
             />
           </NumberContainer>
           <SorteioContainer>
-            <ButtonSorteio onClick={handleCompanies}>
+            {/* <ButtonSorteio onClick={handleCompanies}>
               <p>Boa sorte!</p>
-            </ButtonSorteio>
+            </ButtonSorteio> */}
+
+            <RoundButton 
+              name="Boa sorte!"
+              func={handleCompanies}
+            />
           </SorteioContainer>
 
         </Wrapper>

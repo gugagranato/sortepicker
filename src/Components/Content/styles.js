@@ -29,3 +29,7 @@ export const type = {
   color: '#5CE2BA',
   fontWeight: 'bold'
 };
+
+export const Background = styled.div`
+  
+`

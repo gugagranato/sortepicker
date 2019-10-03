@@ -3,7 +3,8 @@ import Typed from 'react-typed';
 
 import {
    Container,
-   UpperContent
+   UpperContent,
+   Background
 } from './styles'
 
 
@@ -11,7 +12,9 @@ import {
 const Content = () => (
 <Container>
    <UpperContent>
-         
+      <Background>
+
+      </Background>
 
 
 

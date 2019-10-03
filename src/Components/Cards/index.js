@@ -1,5 +1,7 @@
 import React from 'react';
 
+import PropTypes from 'prop-types'
+
 import { 
   Container, 
   Wrapper, 
@@ -11,7 +13,7 @@ import {
   FooterCard,
 } from './styles';
 
-export default function CardsComponent({title, cod, info, img}) {
+function CardsComponent({cod, info, img}) {
   return (
     <Container>
       <Wrapper>
@@ -31,3 +33,10 @@ export default function CardsComponent({title, cod, info, img}) {
     </Container>
   );
 }
+
+CardsComponent.propTypes = {
+  cod: PropTypes.string.isRequired,
+  info: PropTypes.string.isRequired
+};
+
+export default CardsComponent;
