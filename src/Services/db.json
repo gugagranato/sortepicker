@@ -1,34 +1,344 @@
 {
   "empresas": [
     {
-      "name": "Ambev",
-      "Cod": "ABEV3",
+      "name": "Itau",
+      "Cod": "ITUB3",
       "number": 1
     },
     {
-      "name": "Weg",
-      "Cod": "WEGE3",
+      "name": "Vale",
+      "Cod": "VALE3",
       "number": 2
     },
     {
-      "name": "Engie",
-      "Cod": "EGIE3",
+      "name": "Bradesco",
+      "Cod": "BBDC4",
       "number": 3
     },
     {
-      "name": "Itau",
-      "Cod": "ITUB3",
+      "name": "Petrobrás",
+      "Cod": "PETR4",
       "number": 4
+    },
+    {
+      "name": "B3",
+      "Cod": "B3SA3",
+      "number": 5
+    },
+    {
+      "name": "Petrobrás",
+      "Cod": "PETR3",
+      "number": 6
+    },
+    {
+      "name": "Ambev",
+      "Cod": "ABEV3",
+      "number": 7
+    },
+    {
+      "name": "Banco do Brasil",
+      "Cod": "BBAS3",
+      "number": 8
     },
     {
       "name": "Itaúsa",
       "Cod": "ITSA4",
-      "number": 5
+      "number": 9
     },
     {
-      "name": "Fleury",
+      "name": "JBS",
+      "Cod": "JBSS3",
+      "number": 10
+    },
+    {
+      "name": "LOJAS RENNER",
+      "Cod": "LREN3",
+      "number": 11
+    },
+    {
+      "name": "BRADESCO",
+      "Cod": "BBDC3",
+      "number": 12
+    },
+    {
+      "name": "IRBBRASIL RE",
+      "Cod": "IRBR3",
+      "number": 13
+    },
+    {
+      "name": "BRF SA",
+      "Cod": "BRFS3",
+      "number": 14
+    },
+    {
+      "name": "LOCALIZA",
+      "Cod": "RENT3",
+      "number": 15
+    },
+    {
+      "name": "RUMO S.A.",
+      "Cod": "RAIL3",
+      "number": 16
+    },
+    {
+      "name": "SUZANO S.A.",
+      "Cod": "SUZB3",
+      "number": 17
+    },
+    {
+      "name": "TELEF BRASIL",
+      "Cod": "VIVT4",
+      "number": 18
+    },
+    {
+      "name": "BBSEGURIDADE",
+      "Cod": "BBAS3",
+      "number": 19
+    },
+    {
+      "name": "PETROBRAS BR",
+      "Cod": "BRDT3",
+      "number": 20
+    },
+    {
+      "name": "ULTRAPAR",
+      "Cod": "UGPA3",
+      "number": 21
+    },
+    {
+      "name": "RAIADROGASIL",
+      "Cod": "RADL3",
+      "number": 22
+    },
+    {
+      "name": "INTERMEDICA",
+      "Cod": "GNDI3",
+      "number": 23
+    },
+    {
+      "name": "MAGAZ LUIZA",
+      "Cod": "MGLU3",
+      "number": 24
+    },
+    {
+      "name": "EQUATORIAL",
+      "Cod": "EQTL3",
+      "number": 25
+    },
+    {
+      "name": "CCR SA",
+      "Cod": "CCRO3",
+      "number": 26
+    },
+    {
+      "name": "SABESP",
+      "Cod": "SBSP3",
+      "number": 27
+    },
+    {
+      "name": "WEG",
+      "Cod": "WEGE3",
+      "number": 28
+    },
+    {
+      "name": "SANTANDER BR",
+      "Cod": "SANB11",
+      "number": 29
+    },
+    {
+      "name": "KROTON",
+      "Cod": "KROT3",
+      "number": 30
+    },
+    {
+      "name": "AZUL",
+      "Cod": "AZUL4",
+      "number": 31
+    },
+    {
+      "name": "CEMIG",
+      "Cod": "CMIG4",
+      "number": 32
+    },
+    {
+      "name": "EMBRAER",
+      "Cod": "EMBR3",
+      "number": 33
+    },
+    {
+      "name": "GERDAU",
+      "Cod": "GGBR4",
+      "number": 34
+    },
+    {
+      "name": "HYPERA",
+      "Cod": "HYPE3",
+      "number": 35
+    },
+    {
+      "name": "P.ACUCAR-CBD",
+      "Cod": "PCAR4",
+      "number": 36
+    },
+    {
+      "name": "LOJAS AMERIC",
+      "Cod": "LAME4",
+      "number": 37
+    },
+    {
+      "name": "ELETROBRAS",
+      "Cod": "ELET3",
+      "number": 38
+    },
+    {
+      "name": "NATURA",
+      "Cod": "NATU3",
+      "number": 39
+    },
+    {
+      "name": "ENGIE BRASIL",
+      "Cod": "EGIE3",
+      "number": 40
+    },
+    {
+      "name": "BR MALLS PAR",
+      "Cod": "BRML3",
+      "number": 41
+    },
+    {
+      "name": "ELETROBRAS",
+      "Cod": "ELET6",
+      "number": 42
+    },
+    {
+      "name": "BTGP BANCO",
+      "Cod": "BPAC11",
+      "number": 43
+    },
+    {
+      "name": "KLABIN S/A",
+      "Cod": "KLBN11",
+      "number": 44
+    },
+    {
+      "name": "YDUQS PART",
+      "Cod": "YDUQ3",
+      "number": 45
+    },
+    {
+      "name": "SID NACIONAL",
+      "Cod": "CSNA3",
+      "number": 46
+    },
+    {
+      "name": "TIM PART S/A",
+      "Cod": "TIMP3",
+      "number": 47
+    },
+    {
+      "name": "B2W DIGITAL",
+      "Cod": "BTOW3",
+      "number": 48
+    },
+    {
+      "name": "CIELO",
+      "Cod": "CIEL3",
+      "number": 49
+    },
+    {
+      "name": "COSAN",
+      "Cod": "CSAN3",
+      "number": 50
+    },
+    {
+      "name": "VIAVAREJO",
+      "Cod": "VVAR3",
+      "number": 51
+    },
+    {
+      "name": "BRASKEM",
+      "Cod": "BRKM5",
+      "number": 52
+    },
+    {
+      "name": "CVC BRASIL",
+      "Cod": "CVCB3",
+      "number": 53
+    },
+    {
+      "name": "FLEURY",
       "Cod": "FLRY3",
-      "number": 6
+      "number": 54
+    },
+    {
+      "name": "MULTIPLAN",
+      "Cod": "MULT3",
+      "number": 55
+    },
+    {
+      "name": "BRADESPAR",
+      "Cod": "BRAP4",
+      "number": 56
+    },
+    {
+      "name": "TAESA",
+      "Cod": "TAEE11",
+      "number": 57
+    },
+    {
+      "name": "QUALICORP",
+      "Cod": "QUAL3",
+      "number": 58
+    },
+    {
+      "name": "CYRELA REALT",
+      "Cod": "CYRE3",
+      "number": 59
+    },
+    {
+      "name": "ENERGIAS BR",
+      "Cod": "ENBR3",
+      "number": 60
+    },
+    {
+      "name": "MRV",
+      "Cod": "MRVE3",
+      "number": 61
+    },
+    {
+      "name": "GOL",
+      "Cod": "GOLL4",
+      "number": 62
+    },
+    {
+      "name": "USIMINAS",
+      "Cod": "USIM5",
+      "number": 63
+    },
+    {
+      "name": "IGUATEMI",
+      "Cod": "IGTA3",
+      "number": 64
+    },
+    {
+      "name": "GERDAU MET",
+      "Cod": "GOAU4",
+      "number": 65
+    },
+    {
+      "name": "ECORODOVIAS",
+      "Cod": "ECOR3",
+      "number": 66
+    },
+    {
+      "name": "SMILES",
+      "Cod": "SMLS3",
+      "number": 67
+    },
+    {
+      "name": "AZUL",
+      "Cod": "AZUL4",
+      "number": 68
     }
   ]
 }
