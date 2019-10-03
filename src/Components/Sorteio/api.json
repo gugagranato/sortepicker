@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ambev",
+    "Cod": "ABEV3",
+    "number": "1"
+  },
+  {
+    "name": "Weg",
+    "Cod": "WEGE3",
+    "number": "2"
+  },
+  {
+    "name": "Engie",
+    "Cod": "EGIE3",
+    "number": "3"
+  },
+  {
+    "name": "Itau",
+    "Cod": "ITUB3",
+    "number": "4"
+  },
+  {
+    "name": "Itaúsa",
+    "Cod": "ITSA4",
+    "number": "5"
+  },
+  {
+    "name": "Fleury",
+    "Cod": "FLRY3",
+    "number": "6"
+  }
+]
