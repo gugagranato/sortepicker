@@ -14,10 +14,10 @@ export const UpperContent = styled.div`
   justify-content: space-around;
 `
 export const Title = styled.div`
-  color: #516DFA;
+  color: #224D00;
   margin-top: 150px;
   margin-right: 100px;
-  font-size: 30px;
+  font-size: 40px;
   width: 25%;
   font-weight: bold;
 `
@@ -33,5 +33,7 @@ export const type = {
 };
 
 export const Image = styled.img`
+
+width: 50%;
   
 `

@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigate } from 'hookrouter'
 import logo from '../../assets/global/images/logo1.png'
 import { 
   Container,
@@ -11,6 +12,7 @@ import {
 } from './styles';
 
  function Header() {
+
    return (
      <Container>
        <Wrapper>
@@ -20,9 +22,9 @@ import {
           </LogoImage>
         </LogoContainer>
         <InfoContainer>
-          <TextLink>Ideia</TextLink>
-          <TextLink>Rentabilidade</TextLink>
-          <TextLink>Sugestão</TextLink>
+          <TextLink onClick={() => navigate('/idea')}>Ideia</TextLink>
+          <TextLink onClick={() => navigate('/rentability')}>Rentabilidade</TextLink>
+          <TextLink onClick={() => navigate('/sugestion')}>Sugestão</TextLink>
         </InfoContainer>
        </Wrapper>
      </Container>

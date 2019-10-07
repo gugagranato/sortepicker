@@ -7,7 +7,7 @@ import {
    Image
 } from './styles'
 
-import img from '../../assets/global/images/logo.png'
+import img from '../../assets/global/images/sorte.png'
 
 const Content = () => (
 <Container>

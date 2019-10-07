@@ -32,4 +32,6 @@ flex-direction: row;
 `
 export const TextLink = styled.p`
   margin: 0px 15px 0px 15px;
+  font-size: 18px;
+  cursor: pointer;
 `
