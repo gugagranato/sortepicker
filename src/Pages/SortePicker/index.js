@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../../assets/styles/reset.css'
 import '../../assets/styles/font.css'
+import '../../assets/styles/base.css'
 
 import Header from '../../Components/Header';
 import Sorteio from '../../Components/Sorteio';

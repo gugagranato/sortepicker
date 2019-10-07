@@ -1,4 +1,4 @@
-import React,  { useEffect }  from 'react';
+import React  from 'react';
 import companiesService from '../../Services/api/companiesService'
 import abev from '../../assets/global/images/abev.png'
 import wege from '../../assets/global/images/wege.png'
@@ -9,10 +9,9 @@ import egie from '../../assets/global/images/egie.png'
 
 import { 
   Container,
-  ButtonSorteio,
   Wrapper,
   SorteioContainer,
-  NumberContainer
+  NumberContainer,
 } from './styles';
 import CardsComponent from '../Cards';
 import {RoundButton} from '../Button';
@@ -20,6 +19,8 @@ import {RoundButton} from '../Button';
 export default function Sorteio() {
 
   const handleCompanies = async () => {
+
+    
     try {
       const { data } = await companiesService.getCompanies();
       if(!data) {
@@ -92,7 +93,7 @@ export default function Sorteio() {
               <p>Boa sorte!</p>
             </ButtonSorteio> */}
 
-            <RoundButton 
+            <RoundButton
               name="Boa sorte!"
               func={handleCompanies}
             />

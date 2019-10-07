@@ -1,38 +1,21 @@
 import React from 'react';
-import Typed from 'react-typed';
 
 import {
    Container,
    UpperContent,
-   Background
+   Title, 
+   Image
 } from './styles'
 
-
+import img from '../../assets/global/images/logo.png'
 
 const Content = () => (
 <Container>
    <UpperContent>
-      <Background>
-
-      </Background>
-
-
-
-
-      {/*  <Title>
-         Trabalhamos para facilitar o dia a dia do seu&nbsp;
-         <Typed 
-            strings={[
-               'negócio',
-               'emprego',
-               'trabalho',
-            ]}
-            typeSpeed={45}
-            backSpeed={50}
-            loop
-            style={type}
-         />
-      </Title>  */}
+       <Title>
+         Vivemos batendo os analistas financeiros apenas rodando uma roleta
+      </Title>
+      <Image src={img}/>
    </UpperContent>
 </Container>
 

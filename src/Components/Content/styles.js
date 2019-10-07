@@ -8,14 +8,16 @@ export const Container = styled.div`
 `
 export const UpperContent = styled.div`
   display: flex;
-  justify-content: center;
   width: 100%;
+  height: 400px;
+  margin: 50px 200px 50px 200px;
+  justify-content: space-around;
 `
 export const Title = styled.div`
   color: #516DFA;
   margin-top: 150px;
   margin-right: 100px;
-  font-size: 70px;
+  font-size: 30px;
   width: 25%;
   font-weight: bold;
 `
@@ -30,6 +32,6 @@ export const type = {
   fontWeight: 'bold'
 };
 
-export const Background = styled.div`
+export const Image = styled.img`
   
 `
