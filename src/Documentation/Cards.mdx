@@ -1,0 +1,32 @@
+---
+name: Cards
+route: /
+---
+
+import { Playground, Props } from 'docz'
+import Cards from '../Components/Cards'
+
+# Cards
+
+<Props of={Cards} />
+
+## Basic usage
+
+<Cards>
+  <Container>
+      <Wrapper>
+        <ImageContainer>
+          <Image src={img}/>
+        </ImageContainer>
+        <ContentContainer>
+          <TitleEnterprise>
+            {cod}
+          </TitleEnterprise>
+          <FooterContainer>
+            <FooterCard>{info}</FooterCard>
+          </FooterContainer>
+
+        </ContentContainer>
+      </Wrapper>
+    </Container>
+</Cards>

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "title": "Sortepicker",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/Documentation/Cards.mdx",
+      "value": {
+        "name": "Cards",
+        "route": "/",
+        "id": "222443620b999c1fcb317c789f40cab8",
+        "filepath": "src/Documentation/Cards.mdx",
+        "link": "",
+        "slug": "src-documentation-cards",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "cards",
+            "depth": 1,
+            "value": "Cards"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    }
+  ]
+}
