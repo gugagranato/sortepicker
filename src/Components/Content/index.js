@@ -13,7 +13,7 @@ const Content = () => (
 <Container>
    <UpperContent>
        <Title>
-         Vivemos batendo os analistas financeiros apenas rodando uma roleta
+         Vivemos batendo os analistas financeiros apenas rodando uma <strong>roleta</strong>
       </Title>
       <Image src={img}/>
    </UpperContent>
