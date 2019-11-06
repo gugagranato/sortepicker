@@ -2,6 +2,8 @@ import React from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Table } from 'antd';
 import { navigate } from 'hookrouter'
+import styles from './styles'
+
 const { Column, ColumnGroup } = Table;
 
 class TableList extends React.Component {
@@ -120,8 +122,7 @@ class TableList extends React.Component {
 
         <Table 
           dataSource={this.state.dataSource} 
-          bordered
-          link={() => {'/'}}
+          pagination={false}          
         >
           <Column title="Cliente" dataIndex="client" key="client" />
           <Column title="Metas" dataIndex="goals" key="goals" />
@@ -133,7 +134,7 @@ class TableList extends React.Component {
             <Column title="Produto" dataIndex="product" key="product" />
             <Column title="Desconto" dataIndex="discount" key="discount" />
           </ColumnGroup>
-          <Column title="Link" dataIndex="link" key="link" onCellClick={() => navigate('/idea')} />
+          <Column title="Link" dataIndex="link" key="link" onCellClick={() => navigate('/idea')} className={styles.pointer} />
         </Table>
       </div>
     )
