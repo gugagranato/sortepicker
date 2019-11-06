@@ -1,7 +1,7 @@
 import React from 'react';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import { Table } from 'antd';
-
+import { navigate } from 'hookrouter'
 const { Column, ColumnGroup } = Table;
 
 class TableList extends React.Component {
@@ -14,6 +14,7 @@ class TableList extends React.Component {
         {
           key: '1',
           client: 'Loja X',
+          // link: 'Ir para campanha',
           children: [
             {
               goals: 18,
@@ -30,6 +31,7 @@ class TableList extends React.Component {
         {
           key: '2',
           client: 'Loja A',
+          // link: 'Ir para campanha',
           children: [
             {
               goals: 32,
@@ -54,6 +56,7 @@ class TableList extends React.Component {
         {
           key: '3',
           client: 'Loja B',
+          // link: 'Ir para campanha',
           children: [
 
             {goals: 18,
@@ -68,6 +71,7 @@ class TableList extends React.Component {
         {
           key: '4',
           client: 'Loja C',
+          // link: 'Ir para campanha',
           children: [
             {
               goals: 18,
@@ -83,6 +87,7 @@ class TableList extends React.Component {
         {
           key: '5',
           client: 'Loja D',
+          link: 'Ir para campanha',
           children: [
             {
               goals: 18,
@@ -113,8 +118,11 @@ class TableList extends React.Component {
     return (
       <div className="App">
 
-        <Table dataSource={this.state.dataSource} >
-
+        <Table 
+          dataSource={this.state.dataSource} 
+          bordered
+          link={() => {'/'}}
+        >
           <Column title="Cliente" dataIndex="client" key="client" />
           <Column title="Metas" dataIndex="goals" key="goals" />
           <Column title="Pedidos" dataIndex="request" key="request" />
@@ -125,6 +133,7 @@ class TableList extends React.Component {
             <Column title="Produto" dataIndex="product" key="product" />
             <Column title="Desconto" dataIndex="discount" key="discount" />
           </ColumnGroup>
+          <Column title="Link" dataIndex="link" key="link" onCellClick={() => navigate('/idea')} />
         </Table>
       </div>
     )
